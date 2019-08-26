@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	background-color: #eef2e4;
+
+}
+/*TOP LEVEL STYLES*/
+.navbar {
+	background: #9cc28c;
+}
+.nav-link {
+	font-weight: bolder;
+}
+.header {
+	background-image: url('https://images.pexels.com/photos/368893/pexels-photo-368893.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 100vh;
+	margin: 0;
+}
+.overlay {
+	position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, .5);
+}
+.heading {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+	font-weight: bolder;
+}
+.heading p {
+	color: #fff;
+	text-shadow: 2px 2px black;
+}
+.heading h1 {
+	color: #C16B0E;
+}
+.header .btn {
+	transition: .5s;
+}
+.header .btn:hover {
+	border-radius: 30px;
+	background-color: #F6D192;
+	color: #000;
+
+}
+/*MISC STYLES*/
+img {
+	border-radius: 20px;
+	margin-bottom: 1em;
+}
+.section {
+	margin: 1em auto;
+}
+main {
+	margin: 0 25px;
+}
+#contact {
+	width: 50%;
+}
+input[type="textarea"] {
+	height: 80px;
+}
+
+
+/*FOOTER STYLE*/
+.page-footer {
+	background-color: #29282D;
+	color: #EFE9DC;
+	padding: 10px;
+	margin-top: 20px;
+}
